@@ -1,17 +1,24 @@
+@charset 'utf-8';
+
 /* default */
+:root {
+    --main-color: blue;
+}
 
 body {
     height: 100vh;
     margin: 20px;
 }
 
-div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+div > p > span {
+    text-decoration: underline;
+}
 
+span {
+    background-color: var(--main-color);
     color: white;
-    background-color: rgb(26, 52, 168);
-    width: 200px;
-    height: 200px;
+}
+
+div p ~ span {
+    background-color: var(--main-color);
 }
