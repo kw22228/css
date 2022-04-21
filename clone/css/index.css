@@ -10,10 +10,28 @@
 /* screens */
 @import './screens/login.css';
 
+/* global */
 body {
     font-family: 'Open Sans', sans-serif;
 }
-
 #wrap {
-    margin: 2% 1%;
+    box-sizing: border-box;
+}
+
+.nav {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1vh 5vw;
+    background-color: var(--nav--backgroundColor);
+    border-top: 1px solid rgba(121, 121, 121, 0.2);
+    border-bottom: 1px solid rgba(121, 121, 121, 0.2);
+}
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+}
+.nav__btn {
+    padding: 10px;
 }

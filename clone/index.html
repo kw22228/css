@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Clone</title>
+        <title>Clone - Login</title>
 
         <link href="./css/index.css" rel="stylesheet" />
     </head>
@@ -34,9 +34,21 @@
                 </p>
             </header>
 
-            <form class="login-form">
-                <input type="text" placeholder="Email or phone number" class="login-form__input" />
-                <input type="password" placeholder="Password" class="login-form__input" />
+            <form name="form" action="./friends.html" class="login-form">
+                <input
+                    name="username"
+                    required="true"
+                    type="text"
+                    placeholder="Email or phone number"
+                    class="login-form__input"
+                />
+                <input
+                    name="userpw"
+                    required="true"
+                    type="password"
+                    placeholder="Password"
+                    class="login-form__input"
+                />
                 <button class="login-form__btn">Log in</button>
                 <button class="login-form__btn">Sign in</button>
                 <a href="#" class="login-form__a">Find Kakao Account or Passowrd</a>
