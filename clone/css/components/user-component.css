@@ -1,0 +1,24 @@
+.user-component {
+    display: flex;
+}
+.user-component__column {
+    margin: 2vh 3vw;
+}
+.user-component__column:first-child {
+    display: flex;
+    align-items: center;
+}
+.user-component__thumb {
+    width: 70px;
+    height: 70px;
+    border-radius: 30%;
+    margin-right: 3vw;
+}
+.user-component__name {
+    font-weight: 600;
+    font-size: 5vw;
+}
+.user-component__sub {
+    margin-top: 8px;
+    font-size: 15px;
+}
