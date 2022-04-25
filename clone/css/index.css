@@ -8,12 +8,15 @@
 @import './components/status-bar.css';
 @import './components/nav.css';
 @import './components/screen-header.css';
+@import './components/user-component.css';
 
 /* screens */
 @import './screens/login.css';
+@import './screens/friends.css';
 
 /* global */
 body {
+    color: #2e363e;
     font-family: 'Open Sans', sans-serif;
 }
 #wrap {
