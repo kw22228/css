@@ -20,25 +20,11 @@
     position: relative;
 }
 .nav__notification {
-    font-size: 5px;
-    background-color: #fc632a;
-    color: #fff9f1;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 20px;
-    height: 20px;
-    font-weight: 600;
     position: absolute;
     top: -8px;
     right: -8px;
 }
 .nav_dot {
-    background-color: #fc632a;
-    border-radius: 50%;
-    width: 5px;
-    height: 5px;
     display: block;
     position: absolute;
     top: -2px;

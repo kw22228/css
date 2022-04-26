@@ -13,12 +13,49 @@
 /* screens */
 @import './screens/login.css';
 @import './screens/friends.css';
+@import './screens/find.css';
 
 /* global */
 body {
     color: #2e363e;
-    font-family: 'Open Sans', sans-serif;
 }
 #wrap {
     box-sizing: border-box;
+}
+
+.tx-light {
+    opacity: 0.5;
+}
+
+.p-relative {
+    position: relative;
+}
+
+.fx-col-end {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.badge {
+    font-size: 5px;
+    background-color: #fc632a;
+    color: #fff9f1;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    font-weight: 600;
+}
+.dot {
+    background-color: #fc632a;
+    border-radius: 50%;
+    width: 5px;
+    height: 5px;
+}
+
+.main-screen {
+    padding: var(--horizontal-space);
 }

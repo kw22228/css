@@ -2,4 +2,6 @@
     --light-color: rgba(0, 0, 0, 0.5);
     --kakao-color: #fae100;
     --nav--backgroundColor: #f9f9f9;
+    --horizontal-space: 15px;
+    --screen-border: 1px solid #5f5b5b;
 }

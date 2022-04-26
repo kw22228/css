@@ -1,3 +1,19 @@
+.friends-screen {
+    padding: var(--horizontal-space);
+}
+.friends-screen__channel-header {
+    padding: 3vw 0;
+    margin-top: 3vw;
+    border-top: var(--screen-border);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 0.5;
+}
+.friends-screen__channel-header > span {
+    font-size: 15px;
+}
+
 #friends-display-link {
     display: flex;
     background-color: #fae100;
