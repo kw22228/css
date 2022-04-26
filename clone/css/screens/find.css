@@ -1,0 +1,46 @@
+.find__function-box {
+    display: flex;
+    justify-content: space-between;
+}
+.find__function-box__icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 13px;
+}
+.find__function-box__icons > span {
+    margin-top: 10px;
+    font-weight: 600;
+    opacity: 0.8;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.find__recommend-box__header {
+    display: block;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: var(--screen-border);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.find__recommend-box__contents {
+    border-bottom: var(--screen-border);
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.find__openchat {
+    margin-top: 10px;
+}
+.find__openchat-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    font-weight: 600;
+}
+.find__openchat-header > span > i {
+    margin-left: 5px;
+}
